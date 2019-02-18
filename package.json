@@ -1,0 +1,23 @@
+{
+  "name": "sleepbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cympfh/sleepbot.git"
+  },
+  "author": "cympfh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cympfh/sleepbot/issues"
+  },
+  "homepage": "https://github.com/cympfh/sleepbot#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
