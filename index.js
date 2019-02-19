@@ -46,12 +46,12 @@ app.use(morgan((tokens, req, res) =>
     ].join(' ')));
 
 app.get('/sleep/in', (req, res) => {
-  res.end('Good morning');
+  res.end('Good night');
   doit('./scripts/in');
 });
 
 app.get('/sleep/out', (req, res) => {
-  res.end('Good night');
+  res.end('Good morning');
   doit('./scripts/out');
 });
 
